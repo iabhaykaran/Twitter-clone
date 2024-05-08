@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { NavLink } from "react-router-dom";
+import Routepage from "./Routes/Route";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="border">
+        <h1 className="hide">Twitter</h1>
+
+        <div className="head">
+          <div className="nav-div">
+            <NavLink to="/home">Home</NavLink>
+          </div>
+          <div className="nav-div">
+            <NavLink to="/explore">Explore </NavLink>
+          </div>
+          <div className="nav-div">
+            <NavLink to="/notifications">Notifications</NavLink>
+          </div>
+          <div className="nav-div">
+            <NavLink to="/messages">Messages</NavLink>
+          </div>
+          <div className="nav-div">
+            <NavLink to="/grok">Grok</NavLink>
+          </div>
+          <div className="nav-div">
+            <NavLink to="/profile">Profile</NavLink>
+          </div>
+        </div>
+      </div>
+      <Sidebar />
+      <Routepage />
     </div>
   );
 }

@@ -1,38 +1,374 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font-family: sans-serif;
+}
+
 .App {
+  display: flex;
+  /* padding: auto; */
+
+  height: 100vh;
+}
+
+.home {
+  border: 0.1px solid rgb(224, 224, 224);
+  border-top: 0px solid rgb(255, 255, 255);
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.hero {
+  display: flex;
+}
+.page {
+  width: 600px;
+  /* padding: 5px; */
+  /* background-color: bisque; */
+}
+.sidebar {
+  border: 0.1px solid rgb(183, 183, 183);
+  align-items: flex-end;
+  border: 0 solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  font-weight: 400;
+  flex-direction: column;
+  flex-shrink: 0;
+  list-style: none;
+  margin: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  width: 401px;
+  padding: 20px;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  z-index: 0;
+}
+
+.sidebar a {
+  color: rgb(22, 44, 64);
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding: 8px 20px;
+
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.sidebar a:hover {
+  border-radius: 30px;
+  color: #000000;
+  animation-duration: ease(1);
+  background-color: rgb(236, 236, 236);
+}
+
+.sidebar a.active {
+  border-radius: 30px;
+  color: #000000;
+  background-color: rgb(236, 236, 236);
+  font-weight: 610;
+}
+
+.nav-div {
+  /* sidebar nav */
+  height: 50px;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding: 12px;
+  margin-bottom: 8px;
+  width: 240px;
+}
+
+.home-nav {
+  display: flex;
+  border-bottom: 0.1px solid rgb(194, 194, 194);
+  padding: 8px;
+
+  list-style: none;
+}
+.home-nav-link {
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-nav-link a {
+  font-size: 20px;
+  color: rgb(22, 44, 64);
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-weight: 300;
+  margin-bottom: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-nav-link a.active {
+  color: rgb(29, 155, 240);
+  font-weight: 600;
+  /* border-radius: 5px; */
+  /* border-bottom:2px solid #1da1f2; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.post {
+  width: 100%;
+  padding: 5px;
+
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 0.1px solid rgb(233, 233, 233);
+}
+
+.post:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.home::-webkit-scrollbar {
+  display: none;
+}
+.avtar-div {
+  width: 40px;
+  margin-right: 5px;
+}
+.avtar-div img {
+  border-radius: 100%;
+}
+
+.post-div {
+  /* background-color: rgb(229, 222, 221); */
+  padding: 2px;
+  width: 518px;
+  /* height: 516px; */
+}
+
+.post-img-div {
+  border-radius: 15px;
+  height: 316px;
+  margin-top: 5px;
+  background-color: aliceblue;
+}
+
+.liked-comnt-div {
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.post-img-div img {
+  border-radius: 15px;
+}
+
+.profile-btn {
+  background-color: rgb(29, 155, 240);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 30px;
+  height: 52px;
+  width: 230px;
+}
+
+.name {
+  font-family: fantasy;
+  margin-bottom: 30px;
+  color: rgb(29, 155, 240);
+}
+.liked-comnt-div p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.follow-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(13, 19, 19);
+  margin-left: 50px;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.last-div {
+  padding: 20px;
+  width: 350px;
+  /* background-color: #1da1f2; */
+}
+
+.last-div img {
+  border-radius: 5px;
+}
+
+.user-name {
+  margin-left: 10px;
+  width: 500px;
+}
+
+.user-suggest {
+  border: 0.1px solid rgb(183, 183, 183);
+  padding: 20px;
+
+  border-radius: 20px;
+}
+
+.add-post-card {
+  border: 1px solid #e1e8ed;
+
+  padding: 16px;
+}
+
+.post-content textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.post-actions button {
+  background-color: #1da1f2;
   color: white;
+  border: none;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.post-actions button:hover {
+  background-color: #0c84c1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.page-top-div {
+  font-weight: 520;
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.notification-page {
+  height: 100vh;
+  width: 600px;
+  /* background-color: #1da1f2; */
+  border-left: 0.1px solid rgb(183, 183, 183);
+  border-right: 0.1px solid rgb(183, 183, 183);
+}
+.notificationDiv {
+  padding: 20px;
+  display: flex;
+}
+
+.notificationDiv:hover {
+  background-color: rgb(236, 236, 236);
+}
+.Notification-imgDiv img {
+  border-radius: 5px;
+}
+
+.hide {
+  display: none;
+}
+.head {
+  display: none;
+}
+
+.msg-page {
+  width: 450px;
+  height: 100vh;
+  border-left: 0.1px solid black;
+  border-right: 0.1px solid black;
+}
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1000px) {
+  .App {
+    /* display: flex; */
+    flex-direction: column;
+    /* border: none; */
   }
-  to {
-    transform: rotate(360deg);
+
+  .sidebar {
+    display: none;
+  }
+
+  .last-div {
+    display: none;
+  }
+
+  .page {
+    width: 550px;
+  }
+
+  .head {
+    display: block;
+    display: flex;
+    padding: 3px;
+    width: 550px;
+    /* height: 50px; */
+    font-size: 18px;
+    overflow-x: scroll;
+  }
+
+  body {
+    .home {
+      width: 550px;
+    }
+  }
+
+  .home-nav {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .head a.active {
+    font-weight: 550;
+    padding: 5.5px;
+    border-radius: 2px;
+    background-color: #e7e7e7;
+  }
+  .hide {
+    display: block;
+
+    color: #1da1f2;
+    padding-left: 8px;
+  }
+
+  .border {
+    width: 550px;
+    border: 0.1px solid rgb(217, 216, 216);
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .head::-webkit-scrollbar {
+    display: none;
+  }
+
+  .notification-page {
+    width: 550px;
+  }
+
+  .cover {
+    width: 549.5px;
   }
 }
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
