@@ -12,21 +12,6 @@ export default function Explore() {
         <div className="page-top-div  ">
           <p>Explore</p>
 
-          {/* <div className="home-nav">
-            <div className="home-nav-link">
-              <Tabbtn onSelect={handleChange}>More</Tabbtn>
-            </div>
-
-            <div className="home-nav-link">
-              <Tabbtn>More</Tabbtn>
-            </div>
-            <div className="home-nav-link">
-              <Tabbtn onSelect={handleChange}>More</Tabbtn>
-            </div>
-            <div className="home-nav-link">
-              <Tabbtn>More</Tabbtn>
-            </div>
-          </div> */}
         </div>
         <div style={{ padding: "20px", width: "600px" }}>
           <TrendTiles postsno="2500" trend="India" />

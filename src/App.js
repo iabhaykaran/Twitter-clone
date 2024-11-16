@@ -1,5 +1,4 @@
 import "./App.css";
-
 import { NavLink } from "react-router-dom";
 import Routepage from "./Routes/Route";
 import Sidebar from "./Sidebar";

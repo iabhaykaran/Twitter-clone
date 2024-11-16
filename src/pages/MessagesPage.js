@@ -7,7 +7,7 @@ export default function MessagesPage() {
         <p>Messages</p>
       </div>
 
-      <div style={{ padding: "100px", marginTop: "100px" }}>
+      <div className="msgs">
         <MsgSugeest />
       </div>
     </div>
