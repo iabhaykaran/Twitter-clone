@@ -1,4 +1,4 @@
-import MsgSugeest from "../components/MsgSugeest";
+
 
 export default function MessagesPage() {
   return (
@@ -7,9 +7,7 @@ export default function MessagesPage() {
         <p>Messages</p>
       </div>
 
-      <div style={{ padding: "100px", marginTop: "100px" }}>
-        <MsgSugeest />
-      </div>
+    
     </div>
   );
 }
