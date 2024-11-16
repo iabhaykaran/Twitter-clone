@@ -1,4 +1,4 @@
-import MsgSugeest from "../components/MsgSugeest";
+
 
 export default function MessagesPage() {
   return (
@@ -7,9 +7,13 @@ export default function MessagesPage() {
         <p>Messages</p>
       </div>
 
+<<<<<<< HEAD
       <div className="msgs">
         <MsgSugeest />
       </div>
+=======
+    
+>>>>>>> ce978a8eca661683ff758be420ebf6821b1f78fc
     </div>
   );
 }
