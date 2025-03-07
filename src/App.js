@@ -26,7 +26,7 @@ function App() {
             <NavLink to="/grok">Grok</NavLink>
           </div>
           <div className="nav-div">
-            <NavLink to="/profile">Profi</NavLink>
+            <NavLink to="/profile">Profile</NavLink>
           </div>
         </div>
       </div>
