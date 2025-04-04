@@ -76,12 +76,9 @@
 .nav-div {
   /* sidebar nav */
   height: 50px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  padding: 12px;
-  margin-bottom: 8px;
-  width: 240px;
+
+
+  /* width: 240px; */
 }
 
 .home-nav {
@@ -279,24 +276,18 @@
   display: none;
 }
 
-.msg-page {
-  height: 100vh;
-  border-left: 0.1px solid rgb(151, 145, 145);
-  border-right: 0.1px solid rgb(214, 212, 212);
-}
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {...} */
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 1000px) {
   .App {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
+    width: 100%;
     /* border: none; */
   }
-
+  
   .sidebar {
     display: none;
   }
@@ -306,23 +297,21 @@
   }
 
   .page {
-    max-width:450px;
+    width: 100%;
   }
 
   .head {
-    display: block;
+    /* display: block; */
     display: flex;
-    padding: 3px;
-    max-width: 450px;
-    font-size: 18px;
-    overflow-x: scroll;
+    justify-content: space-between;
+    padding: 0 10px;
+    width: 100%;
+    /* font-size: 16px; */
   }
 
-  
-    .home {
-      max-width:100%;
-    }
-  
+  .home {
+    max-width: 100%;
+  }
 
   .home-nav {
     display: none;
@@ -333,12 +322,6 @@
     color: #000000;
   }
 
-  .head a.active {
-    font-weight: 550;
-    padding: 5.5px;
-    border-radius: 2px;
-    background-color: #e7e7e7;
-  }
   .hide {
     display: block;
 
@@ -347,7 +330,6 @@
   }
 
   .border {
-  
     border: 0.1px solid rgb(217, 216, 216);
   }
   body::-webkit-scrollbar {
@@ -359,11 +341,11 @@
   }
 
   .notification-page {
-  width: 100%;
+    width: 100%;
   }
 
   .cover {
-width: 100%;
+    width: 100%;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */

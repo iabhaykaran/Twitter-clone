@@ -1,8 +1,8 @@
-import Suggestion from "../components/Suggestion";
+
 
 export default function Profile() {
   return (
-    <div style={{ display: "flex" }} className="notification-page   ">
+    <div>
       <div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div className="profile-top-div">
@@ -10,13 +10,13 @@ export default function Profile() {
               className="cover"
               src="post.jpeg"
               alt="Cover"
-              width="598px"
+              width="100%"
               height="210px"
             />
             <div
               style={{
-                backgroundColor: "red",
-                width: "82px",
+                // backgroundColor: "red",
+                // width: "82px",
                 display: "flex",
                 height: "82px",
                 borderRadius: "100%",
