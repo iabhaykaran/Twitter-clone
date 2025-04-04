@@ -138,7 +138,7 @@
 .post-div {
   /* background-color: rgb(229, 222, 221); */
   padding: 2px;
-  width: 518px;
+  max-width: 518px;
   /* height: 516px; */
 }
 
@@ -256,7 +256,7 @@
 
 .notification-page {
   height: 100vh;
-  width: 600px;
+  max-width: 600px;
   border-left: 0.1px solid rgb(183, 183, 183);
   border-right: 0.1px solid rgb(183, 183, 183);
 }
@@ -284,11 +284,7 @@
   border-left: 0.1px solid rgb(151, 145, 145);
   border-right: 0.1px solid rgb(214, 212, 212);
 }
-@media only screen and (max-width: 600px) {
-  .page {
-    width: 100%;
-  }
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {...} */
@@ -310,23 +306,23 @@
   }
 
   .page {
-    width: 550px;
+    max-width:450px;
   }
 
   .head {
     display: block;
     display: flex;
     padding: 3px;
-    width: 550px;
+    max-width: 450px;
     font-size: 18px;
     overflow-x: scroll;
   }
 
-  body {
+  
     .home {
-      width: 550px;
+      max-width:100%;
     }
-  }
+  
 
   .home-nav {
     display: none;
@@ -351,7 +347,7 @@
   }
 
   .border {
-    width: 550px;
+  
     border: 0.1px solid rgb(217, 216, 216);
   }
   body::-webkit-scrollbar {
@@ -363,11 +359,11 @@
   }
 
   .notification-page {
-    width: 550px;
+  width: 100%;
   }
 
   .cover {
-    width: 549.5px;
+width: 100%;
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
