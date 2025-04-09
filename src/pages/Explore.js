@@ -7,13 +7,12 @@ export default function Explore() {
   // }
 
   return (
-    <div style={{ display: "flex" }}>
-      <div className="notification-page    page">
+    <div>
+      <div className="">
         <div className="page-top-div  ">
           <p>Explore</p>
-
         </div>
-        <div style={{ padding: "20px", width: "600px" }}>
+        <div style={{ padding: "20px", width: "100%" }}>
           <TrendTiles postsno="2500" trend="India" />
           <TrendTiles postsno="1300" trend="DhruvRathee" />
           <TrendTiles postsno="12000" trend="Unemployment" />
