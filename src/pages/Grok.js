@@ -7,15 +7,16 @@ export default function Grok() {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        height: "100vh",
+        height: "85vh",
+        padding: "20px",
       }}
     >
       <div>
         <h1>Grok something</h1>
 
         <p>
-          Grok is a powerful AI assistant that can help you with a variety of tasks, including coding, learning, and problem-solving.
-          
+          Grok is a powerful AI assistant that can help you with a variety of
+          tasks, including coding, learning, and problem-solving.
         </p>
       </div>
       <br />

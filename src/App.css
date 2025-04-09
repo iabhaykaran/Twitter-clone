@@ -77,7 +77,6 @@
   /* sidebar nav */
   height: 50px;
 
-
   /* width: 240px; */
 }
 
@@ -280,14 +279,14 @@
 /* @media only screen and (min-width: 600px) {...} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .App {
     display: flex;
     flex-direction: column;
     width: 100%;
     /* border: none; */
   }
-  
+
   .sidebar {
     display: none;
   }
@@ -303,12 +302,22 @@
   .head {
     /* display: block; */
     display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    width: 100%;
-    /* font-size: 16px; */
-  }
 
+    justify-content: space-evenly;
+    height: 3rem;
+    overflow-x: scroll;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: #cbcfd1;
+    color: #e1e8ed;
+  }
+a.active{
+
+background-color: #000000;
+color: rgb(117, 190, 255);
+padding:5px 7px;
+
+}
   .home {
     max-width: 100%;
   }
