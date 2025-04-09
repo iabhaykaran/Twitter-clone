@@ -9,18 +9,28 @@ export default function Postcard(props) {
         <div className="avtar-div">
           <img src={props.dp} alt="dp" width="40px" height="40px" />
         </div>
-        <div style={{ padding: "3px" }} className="post-div">
+        <div style={{ padding: "3px", width: "100%" }} className="post-div">
           <p style={{ fontWeight: "550" }}>
             {props.name} {props.uname}· 18h
           </p>
           <br />
-          <p style={{marginBottom:"15px"}}>Tesla is the lowest cost car to maintain</p>
+          <p style={{ marginBottom: "15px" }}>
+            Tesla is the lowest cost car to maintain
+          </p>
           <div className="post-img-div">
             <img src={props.img} width="100%" height="100%" alt="post" />
           </div>
 
-          <div  style={{color:"grey"}}  className="liked-comnt-div" >
-            <div style={{ display: "flex"}}>
+          <div
+            style={{
+              color: "grey",
+              display: "flex",
+              justifyContent: "space-between",
+              width: "100%",
+              padding: "10px",
+            }}
+          >
+            <div style={{ display: "flex" }}>
               <p>
                 <FaRegComment />
               </p>

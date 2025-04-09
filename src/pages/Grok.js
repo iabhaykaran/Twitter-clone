@@ -13,18 +13,19 @@ export default function Grok() {
     >
       <div>
         <h1>Grok something</h1>
-
+        <br />
         <p>
           Grok is a powerful AI assistant that can help you with a variety of
-          tasks, including coding, learning, and problem-solving.
+          tasks including coding learning and problem-solving.
         </p>
       </div>
-      <br />
+
       <div
         style={{
           background: "black",
           borderRadius: "25px",
           color: "white",
+          marginTop: "10px",
           padding: "10px  20px",
         }}
       >
