@@ -267,6 +267,9 @@
 .Notification-imgDiv img {
   border-radius: 5px;
 }
+/* .hero {
+  display: none;
+} */
 
 .hide {
   display: none;
@@ -276,9 +279,23 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {...} */
+@media only screen and (min-width: 600px) {
+  .hero {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
   .App {
     display: flex;
@@ -308,16 +325,15 @@
     overflow-x: scroll;
     font-weight: 500;
     padding: 1rem;
-    background-color: #cbcfd1;
+    /* background-color: #cbcfd1; */
     color: #e1e8ed;
   }
-a.active{
-
-background-color: #000000;
-color: rgb(117, 190, 255);
-padding:5px 7px;
-
-}
+  a.active {
+    background-color: #bab9b9;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 5px 7px;
+  }
   .home {
     max-width: 100%;
   }
