@@ -7,7 +7,7 @@ export default function Grok() {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        height: "85vh",
+        height: "70vh",
         padding: "20px",
       }}
     >
