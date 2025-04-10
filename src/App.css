@@ -318,14 +318,14 @@
     overflow: hidden;
     font-weight: 500;
     padding: 10px;
-    
+
     color: #e1e8ed;
   }
   a.active {
-    background-color: #bab9b9;
-    color: rgb(0, 0, 0);
-    border-radius: 8px;
-    padding: 5px 7px;
+    /* background-color: #bab9b9; */
+    color: rgb(32, 95, 205);
+    /* border-radius: 8px; */
+    /* padding: 5px 7px; */
   }
   .home {
     max-width: 100%;
