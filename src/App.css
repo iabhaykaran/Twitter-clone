@@ -317,7 +317,8 @@
     margin-right: 10px;
     overflow: hidden;
     font-weight: 500;
-    /* padding: 1rem; */
+    padding: 10px;
+    
     color: #e1e8ed;
   }
   a.active {
