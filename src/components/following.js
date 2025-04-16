@@ -10,11 +10,11 @@ export default function Following() {
         </div>
         <div style={{ padding: "20px", width: "600px" }}>
           <TrendTiles postsno="2500" trend="India" />
-          <TrendTiles postsno="1300" trend="Dhruv Rathee" />
+          <TrendTiles postsno="1300" trend="DeepSeek" />
           <TrendTiles postsno="12000" trend="Unemployment" />
-          <TrendTiles postsno="2500" trend="Hunger" />
-          <TrendTiles postsno="1300" trend="400paar" />
-          <TrendTiles postsno="12000" trend="Unemployment" />
+          <TrendTiles postsno="2500" trend="TradeWar" />
+          <TrendTiles postsno="1300" trend="China" />
+          <TrendTiles postsno="12000" trend="America" />
         </div>
       </div>
 
