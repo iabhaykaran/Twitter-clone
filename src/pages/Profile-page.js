@@ -1,5 +1,3 @@
-
-
 export default function Profile() {
   return (
     <div>
@@ -11,7 +9,7 @@ export default function Profile() {
           <div className="profile-top-div">
             <img
               className="cover"
-              src="cover.jpeg"
+              src="cv.jpeg"
               alt="Cover"
               width="100%"
               height="210px"
@@ -46,7 +44,7 @@ export default function Profile() {
 
         <div
           style={{ marginLeft: "20px", color: " #1da1f2", marginBottom: "5px" }}
-        >
+        > 
           #dogecoin
         </div>
         <div style={{ marginLeft: "20px", color: "grey" }}>

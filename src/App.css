@@ -6,12 +6,11 @@
   font-family: sans-serif;
 }
 
-
-
 .App {
   display: flex;
   position: fixed;
   height: 100vh;
+  width: 100%;
 }
 
 .home {
@@ -361,7 +360,6 @@
   .page {
     width: 650px;
   }
-
 
   .home {
     width: 650px;
