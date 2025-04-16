@@ -15,7 +15,8 @@ export default function Postcard(props) {
           </p>
           <br />
           <p style={{ marginBottom: "15px" }}>
-            Tesla is the lowest cost car to maintain
+   
+            {props.caption}
           </p>
           <div className="post-img-div">
             <img src={props.img} width="100%" height="100%" alt="post" />

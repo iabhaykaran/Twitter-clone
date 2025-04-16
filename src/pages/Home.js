@@ -26,401 +26,69 @@ export default function Home() {
             img="post.jpeg"
             dp="dp.jpg"
             name="Abhay Tiwari"
+            caption=" #BreakingNews The definition of a woman and sex in the Equality Act relates to “a biological woman and biological sex”, the Supreme Court has ruled as it unanimously allowed an appeal from a campaign group  "
             uname="@abhaykaran"
           />
           <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
+            img="post22.jpeg"
+            dp="dp2.webp"
+            caption="Dear 'trans women',You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces.Best"
             name="Yash Maheshwari"
             uname="@yashmaheshwari"
           />
-
           <Postcard
             img="post.jpeg"
             dp="dp.jpg"
             name="Abhay Tiwari"
+            caption=" #BreakingNews The definition of a woman and sex in the Equality Act relates to “a biological woman and biological sex”, the Supreme Court has ruled as it unanimously allowed an appeal from a campaign group  "
             uname="@abhaykaran"
           />
           <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
+            img="post22.jpeg"
+            dp="dp2.webp"
+            caption="Dear 'trans women',You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces.Best"
             name="Yash Maheshwari"
             uname="@yashmaheshwari"
           />
-
           <Postcard
             img="post.jpeg"
             dp="dp.jpg"
             name="Abhay Tiwari"
+            caption=" #BreakingNews The definition of a woman and sex in the Equality Act relates to “a biological woman and biological sex”, the Supreme Court has ruled as it unanimously allowed an appeal from a campaign group  "
             uname="@abhaykaran"
           />
           <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
+            img="post22.jpeg"
+            dp="dp2.webp"
+            caption="Dear 'trans women',You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces.Best"
             name="Yash Maheshwari"
             uname="@yashmaheshwari"
           />
-
           <Postcard
             img="post.jpeg"
             dp="dp.jpg"
             name="Abhay Tiwari"
+            caption=" #BreakingNews The definition of a woman and sex in the Equality Act relates to “a biological woman and biological sex”, the Supreme Court has ruled as it unanimously allowed an appeal from a campaign group  "
             uname="@abhaykaran"
           />
           <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
+            img="post22.jpeg"
+            dp="dp2.webp"
+            caption="Dear 'trans women',You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces.Best"
             name="Yash Maheshwari"
             uname="@yashmaheshwari"
           />
-
           <Postcard
             img="post.jpeg"
             dp="dp.jpg"
             name="Abhay Tiwari"
+            caption=" #BreakingNews The definition of a woman and sex in the Equality Act relates to “a biological woman and biological sex”, the Supreme Court has ruled as it unanimously allowed an appeal from a campaign group  "
             uname="@abhaykaran"
           />
           <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
-            name="Yash Maheshwari"
-            uname="@yashmaheshwari"
-          />
-
-          <Postcard
-            img="post.jpeg"
-            dp="dp.jpg"
-            name="Abhay Tiwari"
-            uname="@abhaykaran"
-          />
-          <Postcard
-            img="post2.jpeg"
-            dp="post.jpeg"
+            img="post22.jpeg"
+            dp="dp2.webp"
+            caption="Dear 'trans women',You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces.Best"
             name="Yash Maheshwari"
             uname="@yashmaheshwari"
           />

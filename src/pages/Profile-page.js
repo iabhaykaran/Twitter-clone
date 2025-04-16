@@ -11,7 +11,7 @@ export default function Profile() {
           <div className="profile-top-div">
             <img
               className="cover"
-              src="post.jpeg"
+              src="cover.jpeg"
               alt="Cover"
               width="100%"
               height="210px"

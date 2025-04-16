@@ -6,6 +6,8 @@
   font-family: sans-serif;
 }
 
+
+
 .App {
   display: flex;
   position: fixed;
@@ -73,11 +75,11 @@
   font-weight: 610;
 }
 
-.nav-div {
+.sidebar .nav-div {
   /* sidebar nav */
   height: 50px;
 
-  /* width: 240px; */
+  width: 240px;
 }
 
 .home-nav {
@@ -157,14 +159,14 @@
 }
 
 .profile-btn {
-  background-color: rgb(29, 155, 240);
+  background-color: rgb(0, 0, 0);
   align-items: center;
   font-size: 20px;
   color: aliceblue;
   border-radius: 30px;
   height: 52px;
   padding: 10px;
-  width: 230px;
+  width: 150px;
 }
 
 .name {
@@ -359,30 +361,11 @@
   .page {
     width: 650px;
   }
-  .nav-div {
-    /* sidebar nav */
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-  }
 
-  .profile-btn {
-    background-color: rgb(29, 155, 240);
-    align-items: center;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    border-radius: 30px;
-    height: 52px;
-    width: 230px;
-  }
 
   .home {
     width: 650px;
   }
-
- 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

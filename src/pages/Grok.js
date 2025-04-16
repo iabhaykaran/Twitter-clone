@@ -1,6 +1,7 @@
 export default function Grok() {
   return (
     <div
+      className="notification-page"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -9,9 +10,6 @@ export default function Grok() {
         textAlign: "center",
         height: "100vh",
         padding: "20px",
-        // height: "100vh",
-        borderLeft: "0.001rem solid grey",
-        borderRight: "0.01px solid grey",
       }}
     >
       <div>
@@ -22,17 +20,17 @@ export default function Grok() {
           tasks including coding learning and problem-solving.
         </p>
       </div>
-
+      <br />
       <div
         style={{
           background: "black",
           borderRadius: "25px",
           color: "white",
-          marginBottom: "140px",
+          // marginBottom: "80px",
           padding: "10px  30px",
         }}
       >
-        <h3 >Subscribe</h3>
+        <h3>Subscribe</h3>
       </div>
     </div>
   );

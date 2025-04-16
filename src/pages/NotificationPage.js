@@ -31,7 +31,7 @@ export default function NotificationPage() {
         </div>
         <div className="notificationDiv">
           <div className="Notification-imgDiv">
-            <img src="post.jpeg" width="40px" height="40px " alt="DP" />
+            <img src="post2.jpeg" width="40px" height="40px " alt="DP" />
           </div>
 
           <p style={{ marginLeft: "10px" }}>

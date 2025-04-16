@@ -28,9 +28,9 @@ export default function Sidebar() {
 
       <div className="nav-div profile-btn">
         <div style={{ textAlign: "center" }}>
-          
+          {/* <NavLink to="/home"> */}
           <h3>Post</h3>
-        
+          {/* </NavLink> */}
         </div>
       </div>
     </div>
