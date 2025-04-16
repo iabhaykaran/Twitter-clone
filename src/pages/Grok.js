@@ -7,8 +7,11 @@ export default function Grok() {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        height: "70vh",
+        height: "100vh",
         padding: "20px",
+        // height: "100vh",
+        borderLeft: "0.001rem solid grey",
+        borderRight: "0.01px solid grey",
       }}
     >
       <div>
@@ -25,11 +28,11 @@ export default function Grok() {
           background: "black",
           borderRadius: "25px",
           color: "white",
-          marginTop: "10px",
-          padding: "10px  20px",
+          marginBottom: "140px",
+          padding: "10px  30px",
         }}
       >
-        <h3>Subscribe</h3>
+        <h3 >Subscribe</h3>
       </div>
     </div>
   );

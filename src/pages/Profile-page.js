@@ -4,7 +4,10 @@ export default function Profile() {
   return (
     <div>
       <div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div
+          style={{ display: "flex", flexDirection: "column" }}
+          className="notification-page"
+        >
           <div className="profile-top-div">
             <img
               className="cover"
@@ -51,7 +54,7 @@ export default function Profile() {
         </div>
       </div>
 
-      <div>{/* <Suggestion /> */}</div>
+      {/* <div><Suggestion /></div> */}
     </div>
   );
 }
