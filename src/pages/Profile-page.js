@@ -9,7 +9,7 @@ export default function Profile() {
           <div className="profile-top-div">
             <img
               className="cover"
-              src="cv.jpeg"
+              src="cv.jpg"
               alt="Cover"
               width="100%"
               height="210px"
@@ -20,6 +20,7 @@ export default function Profile() {
                 // width: "82px",
                 display: "flex",
                 height: "82px",
+                flexDirection: "column",
                 borderRadius: "100%",
                 margin: "20px",
               }}
@@ -36,20 +37,13 @@ export default function Profile() {
                 <div style={{ padding: "20px" }}>
                   <h1>Abhay</h1>
                   <p style={{ color: "grey" }}>@iamabhaykaran</p>
+        
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div
-          style={{ marginLeft: "20px", color: " #1da1f2", marginBottom: "5px" }}
-        > 
-          #dogecoin
-        </div>
-        <div style={{ marginLeft: "20px", color: "grey" }}>
-          Joined September 2019
-        </div>
+        
       </div>
 
       {/* <div><Suggestion /></div> */}
