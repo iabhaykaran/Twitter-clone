@@ -303,7 +303,7 @@
     display: flex;
     /* justify-content: space-between; */
     /* margin-right: 10px; */
-    overflow: hidden;
+    overflow: scroll;
     font-weight: 500;
     padding: 10px;
 
