@@ -11,7 +11,7 @@ export default function NotificationPage() {
 
         <div className="notificationDiv">
           <div className="Notification-imgDiv">
-            <img src="post.jpeg" width="40px" height="40px " alt="DP" />{" "}
+            <img src="dp2.png" width="40px" height="40px " alt="DP" />{" "}
           </div>
 
           <p style={{ marginLeft: "10px" }}>
@@ -21,7 +21,7 @@ export default function NotificationPage() {
         </div>
         <div className="notificationDiv">
           <div className="Notification-imgDiv">
-            <img src="post.jpeg" width="40px" height="40px " alt="DP" />{" "}
+            <img src="dp2.png" width="40px" height="40px " alt="DP" />{" "}
           </div>
 
           <p style={{ marginLeft: "10px" }}>
@@ -31,12 +31,12 @@ export default function NotificationPage() {
         </div>
         <div className="notificationDiv">
           <div className="Notification-imgDiv">
-            <img src="post2.jpeg" width="40px" height="40px " alt="DP" />
+            <img src="dp.jpg" width="40px" height="40px " alt="DP" />
           </div>
 
           <p style={{ marginLeft: "10px" }}>
             There was an attempt to log in to your account @iamabhaykaran on Apr
-            12, 2024 that seems suspicious. Review it now.
+            12, 2024 that seems suspicious.
           </p>
         </div>
 
