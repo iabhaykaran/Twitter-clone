@@ -32,13 +32,41 @@ export default function PostDetails() {
             className="post-image"
           />
         )}
+        <div>
+          <br />
+          <h3> Comments</h3>
+        </div>
+
+        <div className="cmnt-box">
+          <div style={{ display: "flex", marginBottom: "10px" }}>
+            <h3>{name}</h3>
+            {/* <p>{uname}</p> */}
+          </div>
+
+          <p>Hi Guys Like And Comment And Share...</p>
+        </div>
+        <div className="cmnt-box">
+          <div style={{ display: "flex", marginBottom: "10px" }}>
+            <h3>Shushant </h3>
+            {/* <p>{uname}</p> */}
+          </div>
+
+          <p>Wow Great</p>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </div>
-
-
-
-
-
-      
     </div>
   );
 }
