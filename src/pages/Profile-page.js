@@ -6,7 +6,7 @@ export default function Profile() {
           <div className="profile-top-div">
             <img
               className="cover"
-              src="cv.jpg"
+              src="dp2.webp"
               alt="Cover"
               width="100%"
               height="210px"
