@@ -240,6 +240,10 @@
   cursor: pointer;
 }
 
+.scroll-none::-webkit-scrollbar {
+  display: none;
+}
+
 .post-actions button:hover {
   background-color: #0c84c1;
 }
@@ -300,6 +304,8 @@
   background-color: rgb(255, 255, 255);
   padding: 20px;
   height: 100%;
+
+  margin-bottom: 150px;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border: 1px solid #e1e8ed;
@@ -345,7 +351,6 @@
   border-radius: 12px;
   border: 1px solid #e1e8ed;
 }
-
 
 @media only screen and (max-width: 600px) {
   .App {

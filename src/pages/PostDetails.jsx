@@ -11,7 +11,7 @@ export default function PostDetails() {
   const { img, dp, name, caption, uname } = state;
 
   return (
-    <div className="post-detail-page">
+    <div className="post-detail-page  scroll-none">
       <div className="post-detail">
         <div className="post-detail-header">
           <img src={process.env.PUBLIC_URL + "/" + dp} alt="dp" />
@@ -32,12 +32,13 @@ export default function PostDetails() {
             className="post-image"
           />
         )}
-
-        <div></div>
-        <br/>
-        <br/>
-        <br/>
       </div>
+
+
+
+
+
+      
     </div>
   );
 }
