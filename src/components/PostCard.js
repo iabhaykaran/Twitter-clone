@@ -2,12 +2,16 @@ import { FaRetweet } from "react-icons/fa6";
 import { FaRegComment } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa6";
 import { RiBarChartGroupedLine } from "react-icons/ri";
-
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Postcard({ id, img, dp, name, caption, uname }) {
   const navigate = useNavigate();
+  const [isFollowing, setisFollowing] = useState(false);
 
+  const following = () => {
+    setisFollowing(!isFollowing);
+  };
   const handleClick = () => {
     navigate(`/post/${id}`, {
       state: { id, img, dp, name, caption, uname },
@@ -15,19 +19,30 @@ export default function Postcard({ id, img, dp, name, caption, uname }) {
   };
 
   return (
-    <div className="post" onClick={handleClick} style={{ cursor: "pointer" }}>
+    <div className="post" style={{ cursor: "pointer" }}>
       <div style={{ display: "flex" }}>
         <div className="avtar-div">
           <img src={dp} alt="dp" width="40px" height="40px" />
         </div>
         <div style={{ padding: "3px", width: "100%" }} className="post-div">
           <p style={{ fontWeight: "550" }}>
-            {name} {uname}· 18h
+            {name}
+            <span style={{ color: "grey" }}> {uname} </span>
+             18h{" "}
+            <button className="flw-btn" onClick={following}>
+              {isFollowing ? "Following" : "Follow"}
+            </button>
           </p>
           <br />
           <p style={{ marginBottom: "15px" }}>{caption}</p>
-          <div className="post-img-div">
-            <img src={img} width="100%" height="100%" alt="post" />
+          <div onClick={handleClick} className="post-img-div">
+            <img
+              // src={img}
+              src={`http://localhost:5000/uploads/${img}`}
+              width="100%"
+              height="100%"
+              alt="post"
+            />
           </div>
 
           <div

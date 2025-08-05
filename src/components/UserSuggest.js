@@ -17,8 +17,11 @@ export default function Usersuggest(props) {
             <p>{props.name}</p>
             <p style={{ color: "grey", fontSize: "" }}>{props.username}</p>
           </div>
-          <div className="follow-btn">
+          <div className="">
+            <button>
+
             <p>Follow</p>
+            </button>
           </div>
         </div>
       </div>

@@ -23,9 +23,9 @@ export default function Grok() {
       <br />
       <div
         style={{
-          background: "black",
+          background: "white",
           borderRadius: "25px",
-          color: "white",
+          color: "black",
           // marginBottom: "80px",
           padding: "10px  30px",
         }}

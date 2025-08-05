@@ -1,9 +1,22 @@
-import React from "react";
+import { useEffect, useState } from "react";
+import Postcard from "../components/PostCard";
+function Home() {
+  const [posts, setPosts] = useState([]);
 
-export default function Notfound() {
+  useEffect(() => {
+    fetch("http://localhost:5000/api/posts")
+      .then((res) => res.json())
+      .then((data) => setPosts(data))
+      .catch((err) => console.error("Error fetching posts:", err));
+  }, []);
+
   return (
-    <div className="page">
-      <h1 style={{ padding: "50px" }}>Not Found</h1>
+    <div className="home">
+      {posts.map((post) => (
+        <Postcard key={post.id} {...post}  />
+      ))}
     </div>
   );
 }
+
+export default Home;
