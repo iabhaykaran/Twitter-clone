@@ -37,8 +37,8 @@ export default function Postcard({ id, img, dp, name, caption, uname }) {
           <p style={{ marginBottom: "15px" }}>{caption}</p>
           <div onClick={handleClick} className="post-img-div">
             <img
-              // src={img}
-              src={`http://localhost:5000/uploads/${img}`}
+              src={img}
+              // src={`http://localhost:5000/uploads/${img}`}
               width="100%"
               height="100%"
               alt="post"
