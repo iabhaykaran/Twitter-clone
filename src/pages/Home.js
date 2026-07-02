@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Postcard from "../components/PostCard";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import Suggestion from "../components/Suggestion";
 import Postform from "../components/PostForm";
 import WhastHapeening from "../components/WhastHapeening";
@@ -9,14 +9,14 @@ import posts from "../Data";
 // import PostForm from "./Notfound";
 
 export default function Home() {
-  const [data, setData] = useState([]);
+  // const [data, setData] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:5000/api/posts")
-      .then((res) => res.json())
-      .then(setData)
-      .catch(console.error);
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/api/posts")
+  //     .then((res) => res.json())
+  //     .then(setData)
+  //     .catch(console.error);
+  // }, []);
 
   return (
     <div className="hero">
@@ -61,7 +61,7 @@ export default function Home() {
 }
 
 
-
+// right code below //////////////////////////////////////add
 
 // import React from "react";
 // import { NavLink } from "react-router-dom";
