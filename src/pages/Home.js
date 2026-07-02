@@ -94,7 +94,7 @@ export default function Home() {
 
   return (
     <div className="hero">
-      <div>
+      <div className="xxx">
         <div className="home-nav">
           <div className="home-nav-link">
             <NavLink to="/home">For you</NavLink>
