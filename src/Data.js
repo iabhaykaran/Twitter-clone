@@ -13,7 +13,7 @@
 //     img: "post22.jpeg",
 //     dp: "dp2.png",
 //     name: "Yash Maheshwari",
-//     uname: "@yashmaheshwari",
+//     uname: "@yashmaheshwarifggggg",
 //     caption:
 //       "Dear 'trans women', You are men. You are men biologically and in law. You will always be men and you always were men. Now stay out of women's spaces. Best",
 //   },
