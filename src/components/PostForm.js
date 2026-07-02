@@ -44,7 +44,9 @@ function PostForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form style={{
+      // margin:"10px"
+    }} onSubmit={handleSubmit}>
       <textarea
         placeholder="What's happening?"
         value={caption}
