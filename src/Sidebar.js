@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="nav-div name">
-        <h1>Twitter</h1>
+        <h1>X</h1>
       </div>
       <div className="nav-div">
         <NavLink to="/home">Home</NavLink>
@@ -17,13 +17,20 @@ export default function Sidebar() {
         <NavLink to="/notifications">Notifications</NavLink>
       </div>
       <div className="nav-div">
-        <NavLink to="/messages">Messages</NavLink>
+        <NavLink to="/follow">Follow</NavLink>
+      </div>
+      <div className="nav-div">
+        <NavLink to="/messages">Chat</NavLink>
       </div>
       <div className="nav-div">
         <NavLink to="/grok">Grok</NavLink>
       </div>
+      
       <div className="nav-div">
         <NavLink to="/profile">Profile</NavLink>
+      </div>
+      <div className="nav-div">
+        <NavLink to="/more">More</NavLink>
       </div>
 
       <div className="nav-div profile-btn">

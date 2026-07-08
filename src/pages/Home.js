@@ -40,11 +40,11 @@ export default function Home() {
 
           {/* {data.map((post) => (
             <Postcard key={post.id} {...post} />
-          ))} */}
+          ))}      nnnnnooooooooooooooooooooo*/}
 
           {/* {[...data].reverse().map((post) => (
             <Postcard key={post.id} {...post} />
-          ))}  this need chnge and img in post card chnge  */}  
+          ))}  this need chnge and img in post card chnge  */}
 
           <br />
 

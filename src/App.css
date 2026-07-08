@@ -97,7 +97,7 @@ button:hover {
   box-sizing: border-box;
   display: flex;
   flex-basis: auto;
-  font-weight: 400;
+  font-weight: 500;
   flex-direction: column;
   flex-shrink: 0;
   list-style: none;
@@ -115,30 +115,30 @@ button:hover {
 .sidebar a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 8px 20px;
 
   font-weight: 500;
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
 }
 .sidebar a:hover {
   border-radius: 30px;
-  color: #000000;
+  color: #ffffff;
   animation-duration: ease(1);
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(28, 28, 28);
 }
 
 .sidebar a.active {
   border-radius: 30px;
-  color: #000000;
-  background-color: rgb(236, 236, 236);
-  font-weight: 610;
+  color: #ffffff;
+  /* background-color: rgb(236, 236, 236); */
+  font-weight: 700;
 }
 
 .sidebar .nav-div {
   /* sidebar nav */
   height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   width: 240px;
 }
 
@@ -240,7 +240,9 @@ button:hover {
 .name {
   font-family: fantasy;
   margin-bottom: 30px;
-  color: rgb(29, 155, 240);
+  /* background-color: #0c84c1; */
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
 }
 .liked-comnt-div p {
   font-size: 15px;
