@@ -17,7 +17,7 @@ export default function Explore() {
         </div>
         <div style={{ padding: "20px", width: "100%" }}>
           <TrendTiles postsno="2500" trend="India" />
-          <TrendTiles postsno="1300" trend="Modi" />
+          <TrendTiles postsno="1300" trend="Ai" />
           <TrendTiles postsno="12000" trend="DeepSeek" />
           <TrendTiles postsno="2500" trend="TradeWar" />
           <TrendTiles postsno="700" trend="Election2025" />
